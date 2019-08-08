@@ -1,6 +1,6 @@
 FROM node:10.15.3-alpine
 # Create app directory
-WORKDIR mkdir src
+RUN mkdir /src
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
